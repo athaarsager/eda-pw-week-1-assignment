@@ -33,6 +33,8 @@ My terminal displays: git version 2.42.0
 Git status shows the status of your files and commits. If a file has been changed but not added for committing,
 it will display in red. All added files will display in green. It helps you keep track of what file
 changes you have completed and are ready to commit, and which ones you still need to add, or maybe edit before adding.
+If all changes have been committed, it will also display that and how far ahead your local branch is of the origin branch
+(the branch you downloaded from gitHub).
 
 # 9 - What does the command 'git add .' do?
 
