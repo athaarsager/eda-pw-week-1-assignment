@@ -1,7 +1,53 @@
 /* Give your page a fun background color */
+body {
+    margin: 0px;
+    border: none;
+}
 
 /* Make the header and footer a different color from the background */
+header {
+    background-color: #b2edc5;
+    display: flex;
+    justify-content: center;
 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #9dc0bc;
+    padding: 20px;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    border: 5px;
+    border-style:solid;
+    border-color:black;
+}
+
+ul {
+    font-family:'Times New Roman', Times, serif
+}
+
+footer {
+    display: flex;
+    flex-direction:column;
+    background-color: #b2edc5;
+    padding-left: 20px;
+
+}
+
+p {
+    color: darkred;
+    font-style: italic;
+}
+
+.disclaimer {
+    margin-top: -5px;
+    font-size: 12px;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
